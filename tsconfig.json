@@ -5,9 +5,10 @@
     "esModuleInterop": true,
     "outDir": "dist",
     "typeRoots": ["../node_modules/@types"],
-    "types":["node"]
+    "types":["node"], 
+    "incremental": true
   },
   "include": ["**/*.ts",
 "*.ts",],
-"exclude":["mode_modules"]
+"exclude":["node_modules"]
 }
